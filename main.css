@@ -1,0 +1,58 @@
+.root {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.root div {
+    border: 1px solid #b5b5b5;
+    padding: 10px;
+    width: 300px;
+}
+
+input {
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+ul {
+    padding: 0;
+}
+
+.save {
+    margin-top: 10px;
+    height: 30px;
+    width: 110px;
+    border: 1px #e3e3e3 solid;
+    color: #383838;
+}
+
+.save:hover {
+    background: #c2c2c2;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.todos li {
+    list-style-type: none;
+    font-size: 17px;
+    position: relative;
+    padding-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todos li::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #b5b5b5;
+    height: 1px;
+}
+
+.fas {
+    margin-left: 5px;
+}
